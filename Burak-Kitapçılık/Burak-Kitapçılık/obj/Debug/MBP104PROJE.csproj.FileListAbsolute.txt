@@ -1,0 +1,13 @@
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\bin\Debug\MBP104PROJE.exe.config
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\bin\Debug\MBP104PROJE.exe
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\bin\Debug\MBP104PROJE.pdb
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.Form1.resources
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.Kayit.resources
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.Main.resources
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.Properties.Resources.resources
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.exe
+C:\Users\PC\Desktop\mbp104proje\MBP104PROJE\MBP104PROJE\obj\Debug\MBP104PROJE.pdb

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB4C036E-0148-43EF-B0CE-0D4CE11387F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MBP104PROJE</RootNamespace>
+    <AssemblyName>MBP104PROJE</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit.Designer.cs">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet51.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet51.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="mbp104DataSet61.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mbp104DataSet61.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit.resx">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="mbp104DataSet.xsc">
+      <DependentUpon>mbp104DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet.xss">
+      <DependentUpon>mbp104DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet1.xsc">
+      <DependentUpon>mbp104DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet1.xss">
+      <DependentUpon>mbp104DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet2.xsc">
+      <DependentUpon>mbp104DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet2.xss">
+      <DependentUpon>mbp104DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet3.xsc">
+      <DependentUpon>mbp104DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet3.xss">
+      <DependentUpon>mbp104DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet4.xsc">
+      <DependentUpon>mbp104DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet4.xss">
+      <DependentUpon>mbp104DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet51.xsc">
+      <DependentUpon>mbp104DataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet51.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet51.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet51.xss">
+      <DependentUpon>mbp104DataSet51.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet61.xsc">
+      <DependentUpon>mbp104DataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="mbp104DataSet61.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mbp104DataSet61.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mbp104DataSet61.xss">
+      <DependentUpon>mbp104DataSet61.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-hand-painted-open-book-5a2aa3b203a389.5989014215127438580149.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-user-blog-staff-miscellaneous-monochrome-black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-book-lot-book-book-retro-comic-book-reading-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-user-blog-staff-miscellaneous-monochrome-black1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-symbol-business-avatar-staff-miscellaneous-child-text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-hand-painted-open-book-5a2aa3b203a389.59890142151274385801491.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgbin-computer-icons-user-avatar-h0NWYbiesb7q6zmXmThDy89Yb_t.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35932.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save-PNG-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-opened-book-icon-3163-thumb.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
